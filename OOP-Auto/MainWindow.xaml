@@ -9,7 +9,8 @@
     <Grid>
         <TextBox Name="txt1"  HorizontalAlignment="Left" Margin="10,0,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Center" Width="300" Height="414"/>
         <TextBox Name="txt2" HorizontalAlignment="Left" Margin="490,0,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Center" Width="300" Height="414"/>
-        <Button Content="Button" HorizontalAlignment="Center" Margin="0,25,0,0" VerticalAlignment="Top" Height="86" Width="121" Click="Button_Click"/>
+        <Button Name="Auto1" Content="Button" HorizontalAlignment="Left" Margin="310,10,0,0" VerticalAlignment="Top" Height="63" Width="60" Click="Button_Click"/>
+        <Button Name="Auto2" Content="Button" HorizontalAlignment="Left" Margin="413,11,0,0" VerticalAlignment="Top" Height="62" Width="72" RenderTransformOrigin="0.287,-0.447" Click="auto2_Click"/>
 
     </Grid>
 </Window>

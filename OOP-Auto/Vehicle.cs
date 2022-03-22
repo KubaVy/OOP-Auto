@@ -27,8 +27,13 @@ namespace OOP_Auto
         public void Move()
         {
             FuelLevel -= 1;
-            Distance += 10;
-            PneuState *= 0.1;
+            FuelLevel = Math.Max(0, FuelLevel - 1);
+            if( FuelLevel > 0)
+            {
+                Distance += 10;
+                PneuState -= 5;
+            }
+            
         }
     
     }
